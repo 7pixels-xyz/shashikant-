@@ -81,7 +81,7 @@ export function Listings() {
                                 style={{ y }}
                                 className={`relative flex flex-col group ${item.span}`}
                             >
-                                <div className="relative w-full h-[calc(100%-4rem)] overflow-hidden rounded-2xl mb-4 bg-gray-200">
+                                <div className="relative w-full h-[calc(100%-4rem)] overflow-hidden rounded-2xl mb-4 bg-white/5">
                                     <Image
                                         src={item.img}
                                         alt={item.title}
